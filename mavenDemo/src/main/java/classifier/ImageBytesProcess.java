@@ -53,7 +53,6 @@ public class ImageBytesProcess {
             for(int i = 0; i < 224; i++){
                 for(int j = 0; j < 224; j++){
                     int rgb = newBuffered.getRGB(j, i);
-//			    System.out.println("RGBVALUE: " + String.valueOf(rgb));
                     switch (k){
                         case 2: imageData.add((float)((rgb & 0xff0000) >> 16));  //r
                             break;
