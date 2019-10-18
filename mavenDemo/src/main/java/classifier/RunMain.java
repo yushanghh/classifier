@@ -28,19 +28,9 @@ public class RunMain {
 //		String savedModelTarPath = "/home/cm/workspace/classifier/model.tar.gz";
 		boolean ifReverseInputChannels = true;
 		int[] inputShape = {1, 224, 224, 3};
-//		{123.68f, 116.78f, 103.94f}  94.0
-//		120.68f, 113.78f, 100.94f  94.5
-//		115.68f, 108.78f, 95.94f 95.16
-//		105.68f, 98.78f, 85.94f  96.5
-//		85.68f, 78.78f, 65.94f  99.0
-//		75.68f, 68.78f, 55.94f  99.16
-//		55.68f, 48.78f, 35.94f 99.833
-//		15.68f, 8.78f, 5.94f 100
 		float[] meanValues = {15.68f, 8.78f, 5.94f};
-//		float[] meanValues = {103.94f, 116.78f, 123.68f};
 		float scale = 1.0f;
 		String input = "input_1";
-
 
 //		String imagePath = "/home/cm/workspace/classifier/figures/baozhi/";
 //		List<LocatedFileStatus> currentFileList;
