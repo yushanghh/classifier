@@ -97,7 +97,7 @@ public class ImageBytesProcess {
         Mat newClaheImage = new Mat();
         Imgproc.cvtColor(claheImage, newClaheImage, Imgproc.COLOR_Lab2BGR);
 
-        Imgcodecs.imwrite("/home/cm/Desktop/\" + String.valueOf((Math.random() * 10)) + \".jpg", newClaheImage);
+        // Imgcodecs.imwrite("/home/cm/Desktop/\" + String.valueOf((Math.random() * 10)) + \".jpg", newClaheImage);
 
         for(int i = 0; i < newClaheImage.rows(); i++){
             for(int j = 0; j < newClaheImage.cols(); j++){
